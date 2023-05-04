@@ -1,6 +1,56 @@
-    title h1{
-text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
-
+}
+    #fondo{
+        background-image: url(imagenes/fondo-bosque.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
 
     }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        padding: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 300;
+
+ }
+ .title h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 60px;
+    width: 50%;
+    display: block;
+    margin: 150px auto;
+    border: 10px solid white;
+    color: white;
+ }
+ .title h1 span{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.card p{
+    background-color: red;
+    width: 40%;
+    z-index: 20px;
+}
+.card img{
+    width: 350px;
+    /* z-index: 23; */
+  /*   width:px % 100vh ; /* Ancho */
+   /*  height:% ; */ /* Altura */ 
+}
+
